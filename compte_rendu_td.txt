@@ -1,0 +1,73 @@
+TD 1 : Semaine du 22 janvier
+
+Discussion autour du cahier des besoins, de notre compréhension du sujet, du planning et de ce qui était attendu de nous au fur et à mesure du projet. 
+
+TD 2 : Semaine du 29 janvier
+
+Critique de notre ébauche du cahier des besoins. Nous devions développer la partie introduction et contexte.
+Explications sur la structure globale du mémoire, en entonnoir avec des éléments généraux dans l'introduction et de plus en plus précis, puis de nouveau de plus en plus généraux avec la conclusion et les perspectives possibles. 
+La strucutre du mémoire devrait être :
+	* Domaine
+	* Contexte
+	* Problématique
+	* Sujet
+	* État de l'art
+	* Cas d'utilisation
+	* Cahier des charges
+	* Architecture
+	* Gantt
+	* Implémentation
+	* Tests
+
+TD 3 : Semaine du 5 février
+
+Critique du cahier des besoins, nous avons tendance à être trop minimalistes dans notre introduction et dans les besoins. 
+TD sur le développement de la première release, des conventions de code etc. 
+Par exemple, on a parlé des GOTCHA Keywords, des commentaires de la forme //:KEYWORD:user:date:comment avec 
+comme keyword TODO, BUG, GLITCH, TRICKY, COMMENT, TOTEST, TEST, UNSTABLE... Ces commentaires sont des commentaires de développement et donc ne doivent pas apparaître dans la release. 
+Discussion sur les tests également. 
+
+TD 4 : Semaine du 12 février
+
+On note que le plus regardé est l'architecture.
+Décrire dans des couleurs differents, architectures de l'exemple, les modifications, les ajouts
+10 minutes de soutenance partagée par tout le monde, 20 minutes de questions.
+json to xml to json : c est un glitch pour la 1ere release
+Les chemins ne doivent pas être en dur dans le code, ca pourrait être bien de pouvoir le changer en ligne de commande ou en fichier de config
+Les gotcha keyword sont fait pour etre enlevés, il faut faire autre chose pour la version finale. Il faut expliciter la légende des 
+gotcha keyword dans le readme pour la 1ere version. 
+Le README, plutot en francais, c est plutot addresse a notre correteur.
+Par contre, nom de fonction/variables eviter le mélange de français et d'anglais. 
+Le but du 1er rendu, c est surtout de voir ce qui tient ou pas, c est plutot a voir comme un PoC
+
+TD 5 : Semaine du 5 mars
+
+Nous devons commencer à rédiger le rapport en même temps qu'on code, ou du moins prendre des notes. 
+Sur le rapport, on doit se concentrer sur l'architecture, l'implémentation (avec des screenshots pour répondre aux besoins), les tests et le bilan. 
+
+TD 6 : Semaine du 12 mars
+
+Critique du cahier des besoins : développer l'introduction,
+ * développer le contexte : comment utiliser facilement le deep learning (API Tensorflow, Python etc.)
+ 							développer la programmation par bloc (ex: Scratch ...)
+  > En quoi la programmation visuelle aide à programmer des RNDP ? 
+  > Faire plus le lien vers les langages visuels
+On doit faire un scénario d'utilisation notamment pour la soutenance. 
+On doit faire des tests pour les besoins fonctionnels et non-fonctionnels. 
+
+TD 7 : Semaine du 26 mars
+
+Correction de quelques pages de code pour vérifier la manière de coder et de commmenter. 
+Déroulement d'un test : 
+	* Intitulé 
+	* Protocole
+	* Résultats
+	* Conclusion
+
+TD 8 : Semaine du 9 avril
+
+TD sur la soutenance finale. On a étudié le plan de Mr Narbel et vu ensemble ce qu'on devait et ne devrait pas faire. 
+15 minutes de présentation et 15 minutes de questions, le temps doit être réparti équitablement, la seule personne qui peut faire plusieurs parties est celui qui fait l'introduction et la conclusion.
+Réduire l'intro pour se focaliser sur l'architecture, les points techniques et les tests. 
+Le scénario d'utilisation, remplace le Use case. 
+

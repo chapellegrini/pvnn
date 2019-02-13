@@ -1,0 +1,14 @@
+# Suggestions of improvments of the application
+
+Here is the list of improvments that would make the application better to use. There is no special order, some are really important features, wheras others are just suggestions:
+
+ - Add the menu `File > Import` to allow the user to select models already predifined by the applications. These models should correspond to models provdied in Keras examples
+ - Use a larger font on the left pannel, the text is not readable (or display out of the box also)
+ - Output layer as no meaning in a Keras application. It should be determined automatically by detecting the node(s) having no out-edges
+ - Right pannel could allow to have the documentation of the leyer and its  parameters (to retrevie automatically from the docstring of the python code).
+ - Left pannel search box should be able to filter layers base on partial names (i.e. `inp` should find `input`)
+ - Hover box displayed on the left pane while putting the mouse on a layer could also display the docktring of its class
+ - PAramters of the layers should be set to the default value given in the python code
+ - Errors in the drawn graph should be highlighted (having a not connected graph: the correct subgraph would be one having an input node) or impossible to do (add in-edge to an input node)
+ - Generated code should be runnable. Here there is a great difficulty: how to manage the training/validation data to have a complete pipeline ?
+)
